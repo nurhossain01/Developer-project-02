@@ -19,6 +19,7 @@ main{
   width: 800px;
   padding: 30px;
   margin-top: 5px;
+  border-radius: 10px;
 }
 .top_players{
   margin-bottom: 10px;
@@ -45,6 +46,9 @@ hr{
 .player img{
   width: 56px;
   height: 56px;
+}
+.player h4{
+  font-size: 13px;
 }
 
 /* top pleayers area end */
@@ -87,3 +91,63 @@ hr{
 }
 
 /* top blogs area end */
+
+#container_box{
+  margin-top: 30px;
+}
+.section_title{
+  padding-bottom: 30px;
+}
+.course-title{
+  font-size: 18px;
+  padding-top: 10px;
+}
+.course-author{
+  color: red;
+  font-size: 12px;
+  padding-top: 10px;
+}
+.courses{
+ display: flex;
+}
+.course{
+  background-color: #ffff;
+  margin-right:10px;
+  padding: 10px;
+}
+.course-banner img{
+  width: 224px;
+  height: 104px;
+}
+.course-info{
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+
+}
+.font-icon{
+  margin: 0;
+}
+.fa-star{
+  font-size: 12px;
+}
+.filled{
+  color: yellow;
+}
+.emty{
+  color: #AEAEAE;
+}
+.number{
+  font-size: 12px;
+}
+.course-duration{
+  font-size: 12px;
+  background-color: #FFE4E8;
+  padding: 2px 12px;
+  border-radius: 13px;
+  color: red;
+}
+.fa-clock{
+  padding-right: 5px;
+}
+
