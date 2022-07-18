@@ -16,7 +16,7 @@ main{
 }
 .container{
   background-color: azure;
-  width: 800px;
+  width: 900px;
   padding: 30px;
   margin-top: 5px;
   border-radius: 10px;
@@ -91,12 +91,14 @@ hr{
 }
 
 /* top blogs area end */
+/* courses area srart */
 
 #container_box{
   margin-top: 30px;
 }
 .section_title{
   padding-bottom: 30px;
+  color: blue;
 }
 .course-title{
   font-size: 18px;
@@ -108,7 +110,9 @@ hr{
   padding-top: 10px;
 }
 .courses{
- display: flex;
+ /* display: flex; */
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
 }
 .course{
   background-color: #ffff;
@@ -149,5 +153,22 @@ hr{
 }
 .fa-clock{
   padding-right: 5px;
+}
+
+/* courses area end */
+/* media quary */
+
+@media only screen and (max-width:688px) {
+  .container{
+    width: 100%;
+  }
+  .players, .top_blogs, .courses{
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .player, .thumbnail, .courses{
+    flex-direction: column;
+    align-content: center;
+  }
 }
 
